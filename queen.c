@@ -15,7 +15,7 @@ int global_count;
 int main(int argc, char *argv[]) {
 
     if(argc < 1)
-	printf("Not enough arguments\n USAGE: mpirun -np num queenpb\n N must be equal to np");
+	printf("Not enough arguments\n USAGE: mpirun -np num queenpb N      \n N must be equal to np");
 
     int N = atoi(argv[1]);
     int i;
